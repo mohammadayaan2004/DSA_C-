@@ -6,7 +6,7 @@ int main()
     cout<<"Enter a character :- ";
     cin>>A;
     if(A>='a' && A<='z'){
-        cout<<"Lowercase"<<endl;;
+        cout<<"Lowercase"<<endl;
     }
     else if(A>='A' && A<='Z'){
         cout<<"Uppercase"<<endl;
