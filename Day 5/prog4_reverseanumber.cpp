@@ -12,6 +12,6 @@ int main()
         reverse= reverse*10 + lastdigit;
         n=n/10;        
     }
-    cout<<"Reverse of number is "<<reverse;
+    cout<<"Reverse of number is :- "<<reverse;
     return 0;
 }
