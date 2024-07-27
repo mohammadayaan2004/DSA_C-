@@ -9,7 +9,7 @@ int main()
         cout << "Index: " << i << " Value: " << f[i] << endl;
     }     
     cout<<"back()  Function :-print the value of last index which is:-  "<<f.back()<<endl<<endl;
-
+    cout<<f[f.size()-1];
 
 return 0;
 }

@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    vector<int> f={6,7,8,9,10};
+    vector<int> f={6,7,8,9,10,12,14,16};
     cout<<"Before insert() function :- "<<endl;
     for(size_t i=0;i<f.size();i++)
     {
@@ -15,8 +15,11 @@ int main()
     {
         cout << "Index: " << i << " Value: " << f[i] << endl;
     } 
-    cout<<endl<<endl;       
-
-
+    cout<<endl;
+    f.insert(f.begin()+0,2,3);
+    for(size_t i=0;i<f.size();i++)
+    {
+        cout << "Index: " << i << " Value: " << f[i] << endl;
+    } 
 return 0;
 }
