@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    vector<int> v={2,4,6,6,6,6,10};
+    vector<int> v={2,4,6,6,6,6,8,10};
     for(size_t i=0;i<v.size();i++)
     {
         cout<<v[i]<<" ";
