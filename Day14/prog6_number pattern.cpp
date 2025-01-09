@@ -4,6 +4,7 @@
 //0 1 0 1
 //1 0 1 0 1
 //0 1 0 1 0 1
+//https://www.naukri.com/code360/problems/binary-number-triangle_6581890?leftPanelTabValue=PROBLEM
 #include<iostream>
 using namespace std;
 int main()
